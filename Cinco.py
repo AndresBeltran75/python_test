@@ -3,6 +3,8 @@ from pyspark.sql.functions import *
 from pyspark.sql.types import *
 from pyspark.sql.window import *
 
+print('EJECUTANDO CINCO...')
+
 globals()['entorno'] = 'VALOR_INICIAL'
 
 spark = SparkSession.builder.appName('PRUEBA_PYSPARK').getOrCreate()

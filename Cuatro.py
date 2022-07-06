@@ -1,3 +1,5 @@
+print('EJECUTANDO CUATRO...')
+
 array = []
 array.append(dict(nombre='Juan', edad=20))
 array.append(dict(nombre='Pedro', edad=30))
