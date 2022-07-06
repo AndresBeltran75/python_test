@@ -20,3 +20,6 @@ globals().update( { 'entorno': 'VALOR_ACTUALIZADO' } )
 print(globals().get('entorno'))
 
 work['final'].repartition(1).write.mode('overwrite').csv('/Users/andresbeltran/Documents/SALIDAS_PYSAPRK/salida.txt', header=True, sep=';') 
+
+context.stop()
+spark.stop()
